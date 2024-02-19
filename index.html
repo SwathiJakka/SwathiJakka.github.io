@@ -1,0 +1,296 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Swathi Jakka Portifolio</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+</head>
+<body class="is-preload">
+
+<!-- Header -->
+<header id="header">
+    <!-- Your existing header content -->
+
+        <div class="inner">
+            <a href="#" class="image avatar"><img src="images/swathi.jpeg
+                " alt="" /></a>
+            <h1 style="font-size: 2rem; font-weight: bold; font-family: Georgia, serif;"><strong>SWATHI JAKKA</strong> <br />
+            Data Analyst<br />
+            </a></h1>
+        </div>
+        
+           <!-- Static side navigation -->
+     <nav id="static-navigation">
+        <ul>
+            <li><a href="#" id="about-button">ABOUT ME</a></li>
+            <li><a href="#" id="projects-button">PROJECTS</a></li>
+            <li><a href="#" id="experience-button">MY EXPERIENCE</a></li>
+            <li><a href="#" id="educationButton">EDUCATION</a></li>
+            <li><a href="#" id="achievements-button">ACHIEVEMENTS</a></li>
+        </ul>
+    </nav>
+    
+        <section id="three" class="left-align">
+            <h2 style=" color: #D7CCC8;"> GET IN TOUCH</h2>
+            <div class="col-4 col-12-small">
+                <ul class="labeled-icons">
+                    <li>
+                        <h3 class="icon solid fa-home"><span class="label">Address</span></h3>
+                        Canada
+                    </li>
+                    <li>
+                        <h3 class="icon solid fa-mobile-alt"><span class="label">Phone</span></h3>
+                        (778)-875-6525
+                    </li>
+                    <li>
+                        <h3 class="icon solid fa-envelope"><span class="label">Email</span></h3>
+                        <a href="#">swathijakka136@gmail.com</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        
+ 
+</header>
+
+<!-- Main -->
+<div id="main">
+   
+    <!-- Dynamic content for the main section -->
+    <section id="dynamic-content">
+        <!-- This section will be replaced dynamically -->
+    </section>
+</div>
+
+<script>
+    // Function to fetch and display dynamic content for About
+    function loadAbout() {
+        // Perform AJAX request to fetch dynamic content for About
+        // Replace this with your actual AJAX call
+        // For demonstration, let's assume dynamicContent is the fetched content
+        var dynamicContent = `
+        <section id="about-section">
+            <div style="background-color: #333; color: #fff; padding: 1rem; margin-bottom: 2rem; text-align: left;">
+                <h2 style="font-size: 2rem; margin-bottom: 0; font-weight: bold; color: #fff;">About Me</h2>
+  
+                </div>
+   
+    <section id="one">
+        <header class="major">
+        </header>
+        <p style="text-align: justify;">I'm a data analyst with expertise in prediction models, visual representation, and reporting, I am passionate about using data to drive informed decision-making and solve complex problems. With a commitment to transforming complex datasets into actionable insights, I have delivered impactful solutions that meet business objectives for various organizations. My experience in teaching and conducting research has further honed my skills in effective communication and problem-solving.</p>
+
+        <h2 style="font-size: 1.5rem; font-weight: bold;">Technical Skills</h2>
+        <div class="row">
+    <div class="6u 12u$(medium)">
+        <ul class="skill-list">
+            <li>
+                <h3 style="display: inline; font-style: italic;">Database:</h3>
+                <p style="display: inline; margin-left: 1em;">MS SQL, MY SQL.</p>
+            </li>
+            <li>
+                <h3 style="display: inline; font-style: italic;">Data Visualization:</h3>
+                <p style="display: inline; margin-left: 1em;">Microsoft Power BI, Tableau.</p>
+            </li>
+            <li>
+                <h3 style="display: inline; font-style: italic;">Programming Languages:</h3>
+                <p style="display: inline; margin-left: 1em;">Python, R.</p>
+            </li>
+        </ul>
+    </div>
+
+    </section>
+        `;
+       
+		        // Replace the existing content in the dynamic section with the fetched dynamic content
+        document.getElementById('dynamic-content').innerHTML = dynamicContent;
+    }
+
+    // Function to fetch and display dynamic content for Projects
+    function loadProjects() {
+        // Perform AJAX request to fetch dynamic content for Projects
+        // Replace this with your actual AJAX call
+        // For demonstration, let's assume dynamicContent is the fetched content
+        var dynamicContent = `
+            <section id="projects-section">
+                <div style="background-color: #333; color: #fff; padding: 1rem; margin-bottom: 2rem; text-align: center;">
+                <h2 style="font-size: 2rem; margin-bottom: 0; font-weight: bold; color: #fff;">PROJECTS</h2>
+  
+                </div>
+               
+               
+						<div class="row">
+							<article class="col-6 colS-12-xsmall work-item">
+								<a href="COVID.jpg" class="image fit thumb"><img src="images/covid.jpg" alt="" /></a>
+                                <h3 style="font-size: 1.5rem; font-family: Georgia; font-weight: bold; font-style: italic; color: #795548">DATA EXPLORATION USING SQL</h3>
+								<p style="text-align: justify;">In this SQL project, I extracted and analyzed data from two distinct datasets to derive meaningful information regarding the spread of the virus and vaccination endeavors across diverse locations and timeframes. Through rigorous calculations of key metrics such as Percentage of Cases noted, Global Death Percentage, and the percentage of people vaccinated according to location and date, I uncovered valuable insights into regions with elevated mortality rates relative to infection rates. Furthermore, by meticulously assessing the progress of vaccination relative to population size, I shed light on the varying impacts of COVID-19 across different regions. Leveraging advanced techniques including Common Table Expressions (CTEs) for simplifying complex queries and temporary tables for efficient storage and manipulation of intermediate results, I facilitated a streamlined analysis process. The discerning findings from this analysis can be instrumental in guiding strategic decisions related to the allocation of resources and the enhancement of COVID-19 mitigation and vaccination strategies on a global scale.</p>
+								<ul class="actions">
+									<li><a href="#" class="button">View Project</a></li>
+								</ul>
+                               
+     					</article>
+							<article class="col-6 col-12-xsmall work-item">
+								<a href="images/fulls/02.jpg" class="image fit thumb"><img src="images/thumbs/02.jpg" alt="" /></a>
+								<h3>Ultricies lacinia interdum</h3>
+								<p>
+									In this SQL project, I extracted and analyzed data from two distinct datasets to derive meaningful information regarding the spread of the virus and vaccination endeavors across diverse locations and timeframes. Through rigorous calculations of key metrics such as Percentage of Cases noted, Global Death Percentage, and the percentage of people vaccinated according to location and date, I uncovered valuable insights into regions with elevated mortality rates relative to infection rates. Furthermore, by meticulously assessing the progress of vaccination relative to population size, I shed light on the varying impacts of COVID-19 across different regions. Leveraging advanced techniques including Common Table Expressions (CTEs) for simplifying complex queries and temporary tables for efficient storage and manipulation of intermediate results, I facilitated a streamlined analysis process. The discerning findings from this analysis can be instrumental in guiding strategic decisions related to the allocation of resources and the enhancement of COVID-19 mitigation and vaccination strategies on a global scale.</p>
+							</article>
+            </section>
+        `;
+
+        // Replace the existing content in the dynamic section with the fetched dynamic content
+        document.getElementById('dynamic-content').innerHTML = dynamicContent;
+    }
+
+    // Function to fetch and display dynamic content for My Experience
+    function loadExperience() {
+        // Perform AJAX request to fetch dynamic content for My Experience
+        // Replace this with your actual AJAX call
+        // For demonstration, let's assume dynamicContent is the fetched content
+        var dynamicContent = `
+            <section id="experience-section">
+                <div style="background-color: #333; color: #fff; padding: 1rem; margin-bottom: 2rem; text-align: center;">
+                <h2 style="font-size: 2rem; margin-bottom: 0; font-weight: bold; color: #fff;">EXPERIENCE</h2>
+  
+                </div>
+             
+                <div class="timeline-badge", style="font-style: italic;" > Assistant Professor</div>
+										<div class="timeline-panel">
+											<div class="timeline-heading">
+												<h4 class="timeline-title">A.S.N Engineering College</h4>
+												<p><small class="text-muted"><i class="fa fa-calendar"></i> Aug, 2016 - Nov, 2020</small></p>
+											</div>
+                <p style="text-align: justify;">I have experience teaching various undergraduate and postgraduate courses, including switching theory and logic design, computer networks, linear integrated circuits, and microprocessor and controllers. To enhance student understanding and engagement with the course material, I have developed and implemented innovative teaching methods, incorporating practical examples, interactive discussions, and problem-solving exercises.</p>
+                <p style="text-align: justify;">In addition to teaching, I have conducted research projects in collaboration with academic and industrial partners, investigating emerging trends and techniques in data analysis, visualization, and machine learning. I have authored multiple research papers, presenting my findings at various international conferences and workshops. As an academic advisor, I have guided students in formulating their academic plans, navigating career paths, and achieving their personal goals.</p>
+            </section>
+        `;
+
+        // Replace the existing content in the dynamic section with the fetched dynamic content
+        document.getElementById('dynamic-content').innerHTML = dynamicContent;
+    }
+  // Function to fetch and display dynamic content for Education
+  function loadEducation() {
+        // Fetch and display content for Education
+        var educationContent = `
+            <section id="education">
+                <div style="background-color: #333; color: #fff; padding: 1rem; margin-bottom: 2rem; text-align: center;">
+                <h2 style="font-size: 2rem; margin-bottom: 0; font-weight: bold; color: #fff;">EDUCATION</h2>
+  
+                </div>
+
+       
+                <i class="fas fa-graduation-cap"></i> <h3>Master of Professional Studies (M.S), Data Analytics</h3>
+  <p style="font-style: italic;"><strong>Northeastern University</strong> - Expected 2024</p>
+  <ul>
+    <li>Data Analysis</li>
+    <li>Prediction Models</li>
+    <li>Python</li>
+    <li>SQL</li>
+    <li>AI & Machine Learning</li>
+    <li>Business Intelligence Tools (Tableau, Power BI)</li>
+    <li>Data Storytelling</li>
+  </ul>
+</div>
+  <div class="education-item">
+    <i class="fas fa-graduation-cap"></i>
+    <h3>Master of Technology (M.Tech), Embedded Systems</h3>
+    <p style="font-style: italic;"><strong>V.F.S.T.R University</strong> - 2014-2016</p>
+    <ul>
+      <li>Embedded C Language</li>
+      <li>Microcontroller Programming</li>
+      <li>Hardware-Software Co-Design</li>
+      <li>PCB Design</li>
+      <li>IoT Technologies</li>
+    </ul>
+  </div>
+  <div class="education-item">
+    <i class="fas fa-graduation-cap"></i>
+    <h3>Bachelor of Technology, Electronics and Communication Engineering (ECE)</h3>
+    <p style="font-style: italic;"><strong>Vignan's University</strong> - 2010-2014</p>
+    <ul>
+      <li>Circuit Design and Analysis</li>
+      <li>Microcontrollers and Microprocessors</li>
+      <li>Signal Processing</li>
+      <li>Wireless Communication</li>
+      <li>VLSI Design</li>
+      <li>Database Management Systems (Minor in IT)</li>
+      <li>Computer Networking (Minor in IT)</li>
+      <li>Data Structures (Minor in IT)</li>
+    </ul>
+  </div>
+            </section>
+        `;
+        document.getElementById('dynamic-content').innerHTML = educationContent;
+    }
+    // Function to fetch and display dynamic content for Achievements
+    function loadAchievements() {
+        // Perform AJAX request to fetch dynamic content for Achievements
+        // Replace this with your actual AJAX call
+        // For demonstration, let's assume dynamicContent is the fetched content
+        var dynamicContent = `
+            <section id="achievements-section">
+                <div style="background-color: #333; color: #fff; padding: 1rem; margin-bottom: 2rem; text-align: center;">
+                <h2 style="font-size: 2rem; margin-bottom: 0; font-weight: bold; color: #fff;">ACHIEVEMENTS AND PUBLICATIONS</h2>
+  
+                </div>
+             <h2 style="font-style: italic;"> ACHEIVEMENTS</h2>
+                <ul class="achievements">
+                    <li>5th Place in the Electronic Champs Project Expo, hosted by IIT-Hyderabad, one of the top engineering institutes in India.</li>
+                    <li>Awarded merit certificate for the academic excellence during my Undergraduate studies.</li>
+
+        </ul>
+    </section>
+    <section id="publications-section">
+        <h2 style="font-style: italic;">PUBLICATIONS</h2>
+        <ul class="PUBLICATIONS">
+            <li>
+                <h3>Comparative Analysis of Technological Advancements in Hexacopters: Assessment</h3>
+                <p>Presented at the 2016 IEEE International Conference on Automatic Control and Dynamic Optimization Techniques (IEEE ICACDOT-2016), Pune, India (September 9–10, 2016). Published in conference proceedings, pp. 901–905.</p>
+                <a href="https://ieeexplore.ieee.org/document/7877717/authors#authors" target="_blank">Read more</a>
+            </li>
+            <li>
+                <h3>Location Tracking System for Drones Using Kalman Filter</h3>
+                <p>Published in the International Journal of Performability Engineering (IJPE) in December 2016.</p>
+                <a href="https://www.ijetae.com/files/Volume8Issue1/IJETAE_0118_48.pdf" target="_blank">Read more</a>
+            </li>
+            
+        </ul>
+            </section>
+        `;
+        
+        // Replace the existing content in the dynamic section with the fetched dynamic content
+        document.getElementById('dynamic-content').innerHTML = dynamicContent;
+    }
+
+    // Add event listeners to the static navigation buttons
+    document.addEventListener('DOMContentLoaded', function () {
+        document.getElementById('about-button').addEventListener('click', function (event) {
+            event.preventDefault();
+
+            loadAbout(); // Call function to load dynamic content for About
+        });
+
+        document.getElementById('projects-button').addEventListener('click', function (event) {
+            event.preventDefault();
+            loadProjects(); // Call function to load dynamic content for Projects
+        });
+
+        document.getElementById('experience-button').addEventListener('click', function (event) {
+            event.preventDefault();
+            loadExperience(); // Call function to load dynamic content for My Experience
+        });
+
+        document.getElementById('educationButton').addEventListener('click', function () {
+            loadEducation();
+        });
+
+        document.getElementById('achievements-button').addEventListener('click', function (event) {
+            event.preventDefault();
+            loadAchievements(); // Call function to load dynamic content for Achievements
+        });
+    });
+</script>
+
+</body>
+</html>
